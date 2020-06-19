@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29926.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simdcsv", "simdcsv\simdcsv.vcxproj", "{A03E58D3-3C9F-4591-8192-EAE73B5907FF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{30765F52-D4D5-46F0-BBD3-D56DB2A0B0EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A03E58D3-3C9F-4591-8192-EAE73B5907FF} = {A03E58D3-3C9F-4591-8192-EAE73B5907FF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A03E58D3-3C9F-4591-8192-EAE73B5907FF}.Debug|x64.ActiveCfg = Debug|x64
+		{A03E58D3-3C9F-4591-8192-EAE73B5907FF}.Debug|x64.Build.0 = Debug|x64
+		{A03E58D3-3C9F-4591-8192-EAE73B5907FF}.Release|x64.ActiveCfg = Release|x64
+		{A03E58D3-3C9F-4591-8192-EAE73B5907FF}.Release|x64.Build.0 = Release|x64
+		{30765F52-D4D5-46F0-BBD3-D56DB2A0B0EB}.Debug|x64.ActiveCfg = Debug|x64
+		{30765F52-D4D5-46F0-BBD3-D56DB2A0B0EB}.Debug|x64.Build.0 = Debug|x64
+		{30765F52-D4D5-46F0-BBD3-D56DB2A0B0EB}.Release|x64.ActiveCfg = Release|x64
+		{30765F52-D4D5-46F0-BBD3-D56DB2A0B0EB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CC6AA0C-F1A5-4BBD-9E60-CC659C399D9D}
+	EndGlobalSection
+EndGlobal
